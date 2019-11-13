@@ -1,0 +1,16 @@
+.flex-container{
+    color:transparent;
+    display: flex;
+    flex-wrap: wrap;
+     color:white
+    
+}
+nav{
+    width: 10%;
+}
+main{
+    width: 60%;
+}
+header,aside,footer{
+    width: 100%;
+}
