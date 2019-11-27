@@ -1,0 +1,42 @@
+body{
+    margin:0px;
+    
+   
+}
+header{
+    background:url(img/logo.png);
+    background-color: orange;
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+   height:150px;
+   display: flex;
+   flex-direction: column;
+   align-content: space-between;
+   align-items: flex-end;
+   padding: 10px;
+}
+
+#slideshow{
+    background-color:gray;
+}
+#slideshow li{
+    display: inline-block;
+    list-style: none;
+    
+}
+
+#opcoes-slideshow{
+    display: flex;
+    justify-content: center;
+    padding:2px;
+}
+#opcoes-slideshow li{
+    margin: 0.2em 0.5em 0.2em 0.5em;
+    width: 10px;
+}
+main img{
+    width: 100%;
+}
+main{
+    background-color:orange;
+}
